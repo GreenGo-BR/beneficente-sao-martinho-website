@@ -51,11 +51,12 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/logo-sao-martinho.png"
+              src="/logo.png"
               alt="Instituto São Martinho - ONG de projetos sociais para crianças e famílias"
               width={180}
               height={60}
-              className="h-12 w-auto group-hover:scale-105 transition-transform"
+              priority
+              className="h-12 w-auto object-contain group-hover:scale-105 transition-transform"
             />
           </Link>
 
