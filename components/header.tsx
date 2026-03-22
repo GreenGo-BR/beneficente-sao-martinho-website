@@ -51,11 +51,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o-xxD1AW7BMzItK9LP3vFbwbOgzuwdoM.jpg"
+              src="/logo-sao-martinho.png"
               alt="São Martinho"
               width={180}
               height={60}
-              className="h-12 w-auto group-hover:scale-105 transition-transform object-cover rounded"
+              className="h-12 w-auto group-hover:scale-105 transition-transform"
             />
           </Link>
 

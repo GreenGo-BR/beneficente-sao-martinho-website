@@ -22,7 +22,7 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="space-y-4">
-            <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o-xxD1AW7BMzItK9LP3vFbwbOgzuwdoM.jpg" alt="São Martinho" width={180} height={60} className="h-12 w-auto object-cover rounded" />
+            <Image src="/logo-sao-martinho.png" alt="São Martinho" width={180} height={60} className="h-12 w-auto" />
             <p className="text-sm text-muted-foreground leading-relaxed">{t.footer.aboutText}</p>
           </div>
 

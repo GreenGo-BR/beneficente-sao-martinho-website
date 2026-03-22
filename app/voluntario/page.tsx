@@ -68,7 +68,7 @@ export default function VoluntarioPage() {
           <div className="max-w-6xl mx-auto">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Esportes.Coletivos-AzMMk6LdnlXVRBm12CZ8wWLKOTErDw.jpg"
+                src="/voluntarios-sao-martinho-diverse-activities.jpg"
                 alt="Voluntários da São Martinho em diversas atividades - educação, meio ambiente, alimentação e manutenção"
                 className="w-full h-auto"
               />

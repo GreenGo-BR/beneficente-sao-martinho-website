@@ -90,7 +90,7 @@ export default function EmpresaParceiraPage() {
           <div className="max-w-5xl mx-auto">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/profissionalizacao-mqBli3AQidj34vmXO81bsExF03rmI0.jpg"
+                src="/empresa-parceira-diverse-industries-collage.jpg"
                 alt="Diversas indústrias e setores parceiros da São Martinho - manufatura, hotelaria, corporativo, saúde e educação"
                 width={1200}
                 height={600}
@@ -272,35 +272,85 @@ export default function EmpresaParceiraPage() {
 
             <div className="flex gap-12 items-center animate-infinite-scroll">
               {/* First Set */}
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Outback Steakhouse</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/outback-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Recíproca Assistência</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/prudencia-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Freedom Songs</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/freedom-songs-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">SLB</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/slb-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Petronect</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/petronect-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Prodigy</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/prodigy-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Maria Violeta</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/maria-violeta-logo.jpg"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Mac Dowell</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/macdowell-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">Bloomberg</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/bloomberg-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
-              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md hover:bg-primary/5">
-                <div className="text-center font-semibold text-lg text-foreground">CA</div>
+              <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
+                <Image
+                  src="/partners/ca-logo.png"
+                  width={240}
+                  height={120}
+                  className="object-contain max-h-28"
+                />
               </div>
             </div>
           </div>

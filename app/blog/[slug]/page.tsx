@@ -27,7 +27,7 @@ const blogPosts = {
       <p>Doação recorrente é quando você doa automaticamente <strong>todo mês</strong> (ou em outra periodicidade), com valor fixo ou ajustável. Ela funciona como uma assinatura: você ajuda com constância e pode cancelar quando quiser.</p>
 
       <figure style="margin: 2rem 0;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Apoio-Familiar-tejO2hX8xxPqxoPpHbJRTpYcZIP6iH.jpg" alt="Mão inserindo moeda em pote de vidro com etiqueta MENSAL em núcleo comunitário do Rio de Janeiro" style="max-width: 100%; border-radius: 12px;" />
+        <img src="/blog-doacao-mensal-pote.jpg" alt="Mão inserindo moeda em pote de vidro com etiqueta MENSAL em núcleo comunitário do Rio de Janeiro" style="max-width: 100%; border-radius: 12px;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">Cada moeda conta — e a constância mensal é o que transforma apoio em impacto real.</figcaption>
       </figure>
 
@@ -53,7 +53,7 @@ const blogPosts = {
       <p>Em resumo: previsibilidade transforma doação em <strong>impacto consistente</strong>.</p>
 
       <figure style="margin: 2rem 0;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educagente%20vicente%20de%20carvalho-capoeira-01-pF9FzzO7DHhdHxifH8PN1fMOEEg8gu.webp" alt="Calendário mensal do Rio de Janeiro com corações coloridos marcando dias de doação, visitas e oficinas" style="max-width: 100%; border-radius: 12px;" />
+        <img src="/blog-doacao-mensal-calendario.jpg" alt="Calendário mensal do Rio de Janeiro com corações coloridos marcando dias de doação, visitas e oficinas" style="max-width: 100%; border-radius: 12px;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">Com uma base mensal previsível, o instituto consegue planejar cada atividade, oficina e visita com antecedência.</figcaption>
       </figure>
 
@@ -69,7 +69,7 @@ const blogPosts = {
       <h2>Doação única vs. doação recorrente (na prática)</h2>
 
       <figure style="margin: 2rem 0;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Centro.de.M%C3%BAsica.JPG-I4FMI7Kmnh7VMO1yLUEQDaQD6UyyA2.jpeg" alt="Infográfico comparando doação mensal (recurso estável, planejamento longo prazo, maior impacto) com doação única (alívio imediato, contribuição pontual)" style="max-width: 100%; border-radius: 12px;" />
+        <img src="/blog-doacao-mensal-vs-unica.jpg" alt="Infográfico comparando doação mensal (recurso estável, planejamento longo prazo, maior impacto) com doação única (alívio imediato, contribuição pontual)" style="max-width: 100%; border-radius: 12px;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">Seu apoio, sua escolha. Ambos transformam — e o ideal é ter os dois.</figcaption>
       </figure>
 
@@ -178,7 +178,7 @@ const blogPosts = {
       </ul>
 
       <figure style="margin: 2rem 0;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gastronomia.Educativa-0IXOAvq2sQf6rCx1RzqUEZKEyBsO4d.jpg" alt="Comprovante impresso de doação ao lado de smartphone e caneta" style="max-width: 100%; border-radius: 12px;" />
+        <img src="/blog-doar-ong-comprovante.jpg" alt="Comprovante impresso de doação ao lado de smartphone e caneta" style="max-width: 100%; border-radius: 12px;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">Guarde sempre o comprovante — digital ou impresso — como registro da sua doação.</figcaption>
       </figure>
 
@@ -202,7 +202,7 @@ const blogPosts = {
       <p>Na dúvida, pare e valide com a instituição pelo site.</p>
 
       <figure style="margin: 2rem 0;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Jud%C3%B4.JPG-99Jo3zBF2wAgc4PJlgMrHKIT5gjEzU.jpeg" alt="Ilustração 3D de celular com tela de doação PIX, escudo de segurança verde e recibo" style="max-width: 100%; border-radius: 12px;" />
+        <img src="/blog-doar-ong-seguranca-recibo.jpg" alt="Ilustração 3D de celular com tela de doação PIX, escudo de segurança verde e recibo" style="max-width: 100%; border-radius: 12px;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">Segurança, transparência e comprovante — os três pilares de uma doação bem feita.</figcaption>
       </figure>
 
@@ -252,12 +252,12 @@ const blogPosts = {
       <p>Trabalho social não é caridade pontual. É presença, método e continuidade. Em territórios onde faltam oportunidades e sobram riscos, projetos socioeducativos ajudam a criar rotina, pertencimento e caminhos concretos para crianças e adolescentes.</p>
 
       <figure style="margin: 2rem 0; text-align: center;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o%20Ambiental-dPVjVhmrhaXApnLIWydkq2fHPjXWSD.jpeg" alt="Círculo de Cuidado — Educação, Cultura e Proteção" style="max-width: 100%; border-radius: 12px; display: inline-block;" />
+        <img src="/blog-trabalho-social-circulo-cuidado.jpg" alt="Círculo de Cuidado — Educação, Cultura e Proteção" style="max-width: 100%; border-radius: 12px; display: inline-block;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">O trabalho social abrange três eixos complementares: educação, cultura e proteção.</figcaption>
       </figure>
 
       <figure style="margin: 2rem 0;">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Acolhimento-awYI9H8xnmU8XGhoSjdQr8h067iEGE.jpg" alt="Materiais de oficina comunitária — lápis de cor, cadernos e livros sobre projeto comunitário" style="max-width: 100%; border-radius: 12px;" />
+        <img src="/blog-trabalho-social-materiais-oficina.jpg" alt="Materiais de oficina comunitária — lápis de cor, cadernos e livros sobre projeto comunitário" style="max-width: 100%; border-radius: 12px;" />
         <figcaption style="margin-top: 0.75rem; font-size: 0.875rem; color: #6b7280; font-style: italic;">Materiais utilizados nas oficinas socioeducativas: ferramentas simples que viabilizam aprendizado, expressão e continuidade.</figcaption>
       </figure>
 
@@ -626,7 +626,7 @@ const blogPosts = {
       <h2>Um Encontro de Diálogo e Transformação</h2>
       <p>O encontro, realizado na sede da instituição na Lapa, Rio de Janeiro, foi um convite à reflexão sobre <strong>escolhas, cidadania, respeito mútuo e convivência em sociedade</strong>. Sem formalidades, os policiais compartilharam suas trajetórias de vida, experiências nas comunidades e escutaram com atenção as perguntas, preocupações e histórias dos jovens.</p>
 
-      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-01-fYoYGpa0YcPKjmOf1VCN5jxlmBrkGw.webp" alt="Policiais civis e equipe da São Martinho" class="w-full rounded-lg my-6" />
+      <img src="/blog-papo-responsa-policiais.jpg" alt="Policiais civis e equipe da São Martinho" class="w-full rounded-lg my-6" />
 
       <h2>O Que é o Projeto "Papo de Responsa"?</h2>
       <p>O <strong>"Papo de Responsa"</strong> é mais do que uma palestra: é um <strong>espaço de escuta, troca e construção coletiva</strong>. O projeto é uma iniciativa oficial da Polícia Civil do Estado do Rio de Janeiro que busca aproximar agentes de segurança pública de jovens e adolescentes, promovendo o diálogo franco e humanizado sobre temas fundamentais para a formação cidadã.</p>
@@ -646,7 +646,7 @@ const blogPosts = {
         <li><strong>Convivência em sociedade</strong> - Valores de cidadania e respeito coletivo</li>
       </ul>
 
-      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-02-mvyJgFsNx0hlhEy9n2GYsgsbPVvvIi.webp" alt="Jovens aprendizes e equipe da São Martinho" class="w-full rounded-lg my-6" />
+      <img src="/blog-papo-responsa-jovens.jpg" alt="Jovens aprendizes e equipe da São Martinho" class="w-full rounded-lg my-6" />
 
       <h2>Quebrando Barreiras e Construindo Pontes</h2>
       <p>Para muitos adolescentes presentes, foi a <strong>primeira vez em que puderam conversar com um agente da lei fora de um contexto de medo ou repressão</strong>. A ação faz parte da proposta educativa da São Martinho, que acredita na formação cidadã e no diálogo como caminhos de transformação social.</p>
@@ -669,7 +669,7 @@ const blogPosts = {
         <li>Empatia e solidariedade</li>
       </ul>
 
-      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-03-nLFUazogdJnCdQ1eyxxfv14O03Z1XD.webp" alt="Foto coletiva com todos os participantes do evento" class="w-full rounded-lg my-6" />
+      <img src="/blog-papo-responsa-grupo.jpg" alt="Foto coletiva com todos os participantes do evento" class="w-full rounded-lg my-6" />
 
       <h2>Participação Ativa e Engajamento</h2>
       <p>O encontro foi marcado pela <strong>participação ativa e engajada dos jovens</strong>, que fizeram perguntas, compartilharam suas percepções e demonstraram interesse genuíno pelos temas abordados. A dinâmica horizontal da roda de conversa, sem palco ou distanciamento, permitiu que o diálogo fluísse de forma natural e autêntica.</p>
