@@ -142,7 +142,7 @@ export default function Home() {
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <Badge className="mb-6 animate-fade-in-up bg-accent text-accent-foreground hover:bg-accent/90 text-sm px-4 py-2">
-              ✨ {locale === "pt" ? "Há mais de 39 anos transformando vidas!" : "Transforming lives for over 39 years!"}
+              ✨ {locale === "pt" ? "Há mais de 39 anos transformando vidas! [GitHub Sync ✓]" : "Transforming lives for over 39 years! [GitHub Sync ✓]"}
             </Badge>
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-in-up text-balance leading-tight">
               <span className="text-gradient-primary">{t.hero.title}</span>
