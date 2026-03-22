@@ -274,8 +274,7 @@ export default function EmpresaParceiraPage() {
               {/* First Set */}
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Outback Steakhouse"
+                  src="/partners/outback-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -283,8 +282,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Recíproca Assistência - Previdência Complementar"
+                  src="/partners/prudencia-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -292,8 +290,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Freedom Songs"
+                  src="/partners/freedom-songs-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -301,8 +298,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="SLB"
+                  src="/partners/slb-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -310,8 +306,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Petronect"
+                  src="/partners/petronect-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -319,8 +314,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Prodigy"
+                  src="/partners/prodigy-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -328,8 +322,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Maria Violeta"
+                  src="/partners/maria-violeta-logo.jpg"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -337,8 +330,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Mac Dowell, Melo & Leite de Castro"
+                  src="/partners/macdowell-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -346,8 +338,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="Bloomberg"
+                  src="/partners/bloomberg-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -355,8 +346,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/placeholder-logo.svg"
-                  alt="CA"
+                  src="/partners/ca-logo.png"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
