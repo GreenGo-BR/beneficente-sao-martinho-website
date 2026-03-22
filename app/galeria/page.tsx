@@ -183,7 +183,7 @@ export default function GalleryPage() {
     },
     {
       src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educagente%20vicente%20de%20carvalho-futbol-03-ipowhJFK2A77xxyxXUd3WaocKrDWFB.webp",
-      caption: locale === "pt" ? "Treino de futebol – Unidade Vicente de Carvalho" : locale === "es" ? "Entrenamiento de fútbol �� Unidad Vicente de Carvalho" : locale === "ja" ? "サッカートレーニング – ビセンテ・デ・カルバーリョ ユニット" : "Football training – Vicente de Carvalho Unit",
+      caption: locale === "pt" ? "Treino de futebol – Unidade Vicente de Carvalho" : locale === "es" ? "Entrenamiento de fútbol – Unidad Vicente de Carvalho" : locale === "ja" ? "サッカートレーニング – ビセンテ・デ・カルバーリョ ユニット" : "Football training – Vicente de Carvalho Unit",
     },
     {
       src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educagente%20vicente%20de%20carvalho-futbol-04-Mgqkik9t2PLxWiOkJZ1agkICOhVhvS.webp",
@@ -691,7 +691,7 @@ export default function GalleryPage() {
     },
     {
       src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educagente%20vicente%20de%20carvalho-criancas%20pose-14-vKJjP5SO9swYRfN98KxjLGzURWK2PP.webp",
-      caption: locale === "pt" ? "Evento com alunos e comunidade" : locale === "es" ? "Evento con estudiantes y comunidad" : locale === "ja" ? "��徒とコミュニティのイベント" : "Event with students and community",
+      caption: locale === "pt" ? "Evento com alunos e comunidade" : locale === "es" ? "Evento con estudiantes y comunidad" : locale === "ja" ? "生徒とコミュニティのイベント" : "Event with students and community",
     },
   ]
 
@@ -846,7 +846,7 @@ export default function GalleryPage() {
     {
       id: "jovem_aprendiz",
       title:
-        locale === "pt" ? "Jovem Aprendiz" : locale === "es" ? "Joven Aprendiz" : locale === "ja" ? "ヤング��プレンティス" : "Young Apprentice",
+        locale === "pt" ? "Jovem Aprendiz" : locale === "es" ? "Joven Aprendiz" : locale === "ja" ? "ヤングアプレンティス" : "Young Apprentice",
       description:
         locale === "pt"
           ? "Profissionalização e inserção no mercado de trabalho"
@@ -1024,7 +1024,7 @@ export default function GalleryPage() {
                 {/* Card Image */}
                 <img
                   src={category.coverImage}
-                  alt={`${category.title} - Atividades e projetos sociais com crianças do Instituto São Martinho`}
+                  alt={category.title}
                   className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
                 />
 
@@ -1216,7 +1216,7 @@ export default function GalleryPage() {
                 {/* Card Image */}
                 <img
                   src={category.coverImage}
-                  alt={`${category.title} - Atividades e projetos sociais com crianças do Instituto São Martinho`}
+                  alt={category.title}
                   className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
                 />
 
@@ -1261,7 +1261,7 @@ export default function GalleryPage() {
                 : locale === "es"
                   ? "Únase a nosotros como voluntario, donante o socio. Su contribución marca la diferencia."
                   : locale === "ja"
-                    ? "ボランティア、寄付者、またはパートナーとして参加してくださ��。あなたの貢献は大きな違いを生み出します。"
+                    ? "ボランティア、寄付者、またはパートナーとして参加してください。あなたの貢献は大きな違いを生み出します。"
                     : "Join us as a volunteer, donor or partner. Your contribution makes a difference."}
             </p>
 
@@ -1317,7 +1317,7 @@ export default function GalleryPage() {
                 <div className="relative w-full aspect-video rounded-2xl overflow-hidden bg-black">
                   <img
                     src={currentImage.src}
-                    alt={`${currentImage.caption} - Projeto social com crianças do Instituto São Martinho`}
+                    alt={currentImage.caption}
                     className="w-full h-full object-cover"
                   />
                 </div>

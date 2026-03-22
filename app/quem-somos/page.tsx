@@ -152,7 +152,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nossa.Hist%C3%B3ria.JPG-awDB2lRt4aP3Y1uivDGtiZxFf6mIrq.jpeg"
-                alt="Crianças e educadores do Instituto São Martinho em atividades comunitárias - história de 39 anos de projetos sociais"
+                alt="São Martinho Community"
                 className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />

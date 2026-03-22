@@ -232,7 +232,7 @@ export default function DonationsPage() {
                 : locale === "es"
                   ? "Cada donación es una semilla de esperanza. Juntos, construimos un futuro mejor para miles de niños y familias."
                   : locale === "ja"
-                    ? "各寄付は希望の種です。一緒に、何千人も��子供と家族のためのより良い未来を築きます。"
+                    ? "各寄付は希望の種です。一緒に、何千人もの子供と家族のためのより良い未来を築きます。"
                     : "Every donation is a seed of hope. Together, we build a better future for thousands of children and families."}
             </p>
 
@@ -287,7 +287,7 @@ export default function DonationsPage() {
             <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden group">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Impacto-em%20-numeros-7FnTIcok4eZcZ4sW6kvHbkk0y29fX7.jpg"
-                alt="Crianças estudando em sala de aula do Instituto São Martinho - projetos sociais e educação de qualidade"
+                alt="Crianças estudando na São Martinho"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />

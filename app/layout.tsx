@@ -13,18 +13,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Instituto São Martinho | Transformando vidas com solidariedade",
+  title: "São Martinho - Transformando Vidas com Solidariedade",
   description:
-    "O Instituto São Martinho atua há mais de 39 anos apoiando crianças e famílias em situação de vulnerabilidade. Conheça nossos projetos e saiba como ajudar.",
-  keywords: [
-    "instituto social",
-    "ONG crianças",
-    "doação",
-    "assistência social",
-    "projetos sociais",
-    "ajuda famílias",
-    "São Martinho",
-  ],
+    "Associação Beneficente São Martinho - Há mais de 30 anos transformando vidas através da educação, cultura e apoio social.",
   generator: "v0.app",
   icons: {
     icon: [

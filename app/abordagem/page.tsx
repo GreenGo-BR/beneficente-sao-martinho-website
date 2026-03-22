@@ -79,7 +79,7 @@ export default function AbordagemPage() {
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={activity.image || "/placeholder.svg"}
-                    alt={`${activity.title} - Atividade e projeto social com crianças do Instituto São Martinho`}
+                    alt={activity.title}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />

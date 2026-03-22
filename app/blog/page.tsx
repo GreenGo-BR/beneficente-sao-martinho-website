@@ -307,7 +307,7 @@ export default function BlogPage() {
                   <div className="relative h-56 overflow-hidden bg-muted">
                     <Image
                       src={post.image || "/placeholder.svg"}
-                      alt={`${post.title} - Blog do Instituto São Martinho sobre projetos sociais e atividades com crianças`}
+                      alt={`${post.title} - Associação São Martinho Rio de Janeiro`}
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-500"
                       itemProp="image"

@@ -71,7 +71,7 @@ export default function ProfessionalizacaoPage() {
           <div className="mb-20 rounded-3xl overflow-hidden shadow-2xl">
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/profissionalizacao-NoUDbv5JcwoJAfAj89nhDQj28u0TAf.jpg"
-              alt="Jovens aprendizes em ambiente de trabalho profissional - programa de profissionalização do Instituto São Martinho"
+              alt="Jovens aprendizes em ambiente de trabalho profissional"
               className="w-full h-[500px] object-cover"
             />
           </div>

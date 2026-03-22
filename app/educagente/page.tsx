@@ -93,7 +93,7 @@ export default function EducagentePage() {
                 <div className="relative h-72 md:h-96 overflow-hidden">
                   <Image
                     src={programs[0].image || "/placeholder.svg"}
-                    alt={`${programs[0].title} - Programa educacional do Instituto São Martinho para crianças`}
+                    alt={programs[0].title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
@@ -121,7 +121,7 @@ export default function EducagentePage() {
                   <div className="relative h-56 overflow-hidden">
                     <Image
                       src={program.image || "/placeholder.svg"}
-                      alt={`${program.title} - Programa social e educacional do Instituto São Martinho para crianças`}
+                      alt={program.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
                     />
