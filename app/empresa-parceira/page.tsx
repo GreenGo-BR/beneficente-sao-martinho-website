@@ -274,7 +274,7 @@ export default function EmpresaParceiraPage() {
               {/* First Set */}
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/outback-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Outback Steakhouse"
                   width={240}
                   height={120}
@@ -283,7 +283,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/prudencia-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Recíproca Assistência - Previdência Complementar"
                   width={240}
                   height={120}
@@ -292,7 +292,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/freedom-songs-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Freedom Songs"
                   width={240}
                   height={120}
@@ -301,7 +301,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/slb-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="SLB"
                   width={240}
                   height={120}
@@ -310,7 +310,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/petronect-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Petronect"
                   width={240}
                   height={120}
@@ -319,7 +319,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/prodigy-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Prodigy"
                   width={240}
                   height={120}
@@ -328,7 +328,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/maria-violeta-logo.jpg"
+                  src="/placeholder-logo.svg"
                   alt="Maria Violeta"
                   width={240}
                   height={120}
@@ -337,7 +337,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/macdowell-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Mac Dowell, Melo & Leite de Castro"
                   width={240}
                   height={120}
@@ -346,7 +346,7 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/bloomberg-logo.png"
+                  src="/placeholder-logo.svg"
                   alt="Bloomberg"
                   width={240}
                   height={120}
@@ -355,8 +355,8 @@ export default function EmpresaParceiraPage() {
               </div>
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
-                  src="/partners/ca-logo.png"
-                  alt="C&A"
+                  src="/placeholder-logo.svg"
+                  alt="CA"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"

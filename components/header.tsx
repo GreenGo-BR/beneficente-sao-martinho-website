@@ -51,7 +51,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/logo-sao-martinho.png"
+              src="/placeholder-logo.svg"
               alt="São Martinho"
               width={180}
               height={60}
