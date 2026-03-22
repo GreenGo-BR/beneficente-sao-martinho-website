@@ -69,7 +69,7 @@ export default function VoluntarioPage() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="/voluntarios-sao-martinho-diverse-activities.jpg"
-                alt="Voluntários da São Martinho em diversas atividades - educação, meio ambiente, alimentação e manutenção"
+                alt="Voluntários e crianças em projetos sociais do Instituto São Martinho - atividades de educação, meio ambiente, alimentação comunitária e manutenção"
                 className="w-full h-auto"
               />
             </div>

@@ -115,7 +115,7 @@ export default function UnidadesPage() {
                     <div className="relative h-64 lg:h-auto overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
                       <Image
                         src={unit.image || "/placeholder.svg"}
-                        alt={unit.name}
+                        alt={`${unit.name} - Unidade do Instituto São Martinho com projetos sociais para crianças`}
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-700"
                       />

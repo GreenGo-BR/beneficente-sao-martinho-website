@@ -52,7 +52,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/logo-sao-martinho.png"
-              alt="São Martinho"
+              alt="Instituto São Martinho - ONG de projetos sociais para crianças e famílias"
               width={180}
               height={60}
               className="h-12 w-auto group-hover:scale-105 transition-transform"

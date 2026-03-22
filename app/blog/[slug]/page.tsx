@@ -1163,7 +1163,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div className="relative h-96 lg:h-[500px] mb-10 rounded-lg overflow-hidden">
               <Image
                 src={post.image || "/placeholder.svg"}
-                alt={`${post.title} - Associação São Martinho Rio de Janeiro`}
+                alt={`${post.title} - Artigo do Instituto São Martinho sobre projetos sociais, atividades com crianças e desenvolvimento comunitário`}
                 fill
                 className="object-cover"
                 priority

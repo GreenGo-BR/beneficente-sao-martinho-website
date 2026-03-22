@@ -91,7 +91,7 @@ export default function EmpresaParceiraPage() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/empresa-parceira-diverse-industries-collage.jpg"
-                alt="Diversas indústrias e setores parceiros da São Martinho - manufatura, hotelaria, corporativo, saúde e educação"
+                alt="Indústrias e setores parceiros do Instituto São Martinho oferecendo oportunidades de trabalho - manufatura, hotelaria, corporativo, saúde e educação"
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover"

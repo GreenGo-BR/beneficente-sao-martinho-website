@@ -188,7 +188,7 @@ export default function ProjectsPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={project.image || "/placeholder.svg"}
-                    alt={project.title}
+                    alt={`${project.title} - Projeto social do Instituto São Martinho para crianças e famílias em situação de vulnerabilidade`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-4 right-4 w-12 h-12 bg-background rounded-full flex items-center justify-center shadow-lg">

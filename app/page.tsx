@@ -405,7 +405,7 @@ export default function Home() {
             </div>
             <div className="flex-1 animate-slide-in-right">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-square hover-lift">
-                <img src="/sao-martinho-boys-lapa.jpg" alt="São Martinho" className="w-full h-full object-cover" />
+                <img src="/sao-martinho-boys-lapa.jpg" alt="Crianças em atividades do Instituto São Martinho na Lapa - projetos de educação e transformação social" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6 text-white">
                   <p className="text-sm font-semibold mb-1">
@@ -425,7 +425,7 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl h-96 lg:h-full lg:min-h-96 group">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Mar%2021%2C%202026%2C%2007_46_45%20PM-9kdimqXqjzk0rnbE9YTdVXQjPzDlbw.png"
-                alt="Maria, ex-aluna da São Martinho"
+                alt="Maria, ex-aluna do Instituto São Martinho em projeto social de educação e desenvolvimento comunitário"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
