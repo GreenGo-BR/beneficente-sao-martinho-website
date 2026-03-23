@@ -131,21 +131,19 @@ export default function Home() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url('/hero-children-community.png')`,
+            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.45)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U7uZh4DZN4bUogmBi6qLClgwyuLvUB.png')`,
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "center 35%",
           }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-background/60" />
-        </div>
+        />
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <Badge className="mb-6 animate-fade-in-up bg-accent text-accent-foreground hover:bg-accent/90 text-sm px-4 py-2">
-              ✨ {locale === "pt" ? "Há mais de 39 anos transformando vidas! [GitHub Sync ✓]" : "Transforming lives for over 39 years! [GitHub Sync ✓]"}
+              ✨ {locale === "pt" ? "Há mais de 39 anos transformando vidas!" : "Transforming lives for over 39 years!"}
             </Badge>
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-in-up text-balance leading-tight">
-              <span className="text-gradient-primary">{t.hero.title}</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 animate-fade-in-up text-balance leading-tight" style={{ textShadow: "0 2px 10px rgba(0,0,0,0.4)" }}>
+              {t.hero.title}
             </h1>
             <p
               className="text-lg lg:text-2xl text-muted-foreground mb-8 leading-relaxed text-pretty animate-fade-in-up"
@@ -162,9 +160,8 @@ export default function Home() {
               </Button>
               <Button
                 asChild
-                variant="outline"
                 size="lg"
-                className="text-base bg-background/80 backdrop-blur-sm hover:bg-background border-2 group"
+                className="text-base border border-white text-white bg-transparent hover:bg-white/10"
               >
                 <Link href="/projetos" className="gap-2">
                   {t.hero.ctaSecondary}
@@ -404,9 +401,12 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-1 animate-slide-in-right">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-square hover-lift">
-                <img src="/sao-martinho-boys-lapa.jpg" alt="São Martinho" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-square hover-lift" style={{
+                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZgAB9P8LHPXGPzKBKmhLSOnT76w0Dq.png')`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}>
+                <div className="absolute inset-0" />
                 <div className="absolute bottom-6 left-6 right-6 text-white">
                   <p className="text-sm font-semibold mb-1">
                     {locale === "pt" ? "Faça parte desta" : "Be part of this"}

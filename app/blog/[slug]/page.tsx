@@ -502,7 +502,7 @@ const blogPosts = {
       <h2>A Importância de Celebrar a Infância</h2>
       <p>Celebrar o <strong>Dia das Crianças</strong> vai muito além de entregar presentes e promover brincadeiras. É uma forma de reconhecer a importância da infância, valorizar cada criança como sujeito de direitos e reafirmar nosso compromisso em proporcionar um ambiente seguro, acolhedor e estimulante para o desenvolvimento integral.</p>
 
-      <p>Para as crianças atendidas pela São Martinho, muitas delas em situação de vulnerabilidade social, essas celebrações representam momentos de respiro, alegria e esperança em meio às dificuldades do dia a dia.</p>
+      <p>Para as crianças atendidas pela São Martinho, muitas delas em situação de vulnerabilidade social, essas celebraç��es representam momentos de respiro, alegria e esperança em meio às dificuldades do dia a dia.</p>
 
       <h2>Seguimos Transformando Vidas com Amor</h2>
       <p>Que o sorriso de cada criança continue sendo nossa <strong>maior inspiração</strong> para seguir transformando vidas com amor e dedicação! A São Martinho renova seu compromisso em oferecer educação, proteção, oportunidades e momentos de alegria para as crianças, adolescentes e jovens atendidos em nossos programas.</p>

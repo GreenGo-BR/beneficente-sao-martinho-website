@@ -275,7 +275,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/outback-logo.png"
-                  alt="Outback Steakhouse"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -284,7 +283,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/prudencia-logo.png"
-                  alt="Recíproca Assistência - Previdência Complementar"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -293,7 +291,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/freedom-songs-logo.png"
-                  alt="Freedom Songs"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -302,7 +299,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/slb-logo.png"
-                  alt="SLB"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -311,7 +307,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/petronect-logo.png"
-                  alt="Petronect"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -320,7 +315,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/prodigy-logo.png"
-                  alt="Prodigy"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -329,7 +323,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/maria-violeta-logo.jpg"
-                  alt="Maria Violeta"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -338,7 +331,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/macdowell-logo.png"
-                  alt="Mac Dowell, Melo & Leite de Castro"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -347,7 +339,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/bloomberg-logo.png"
-                  alt="Bloomberg"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
@@ -356,7 +347,6 @@ export default function EmpresaParceiraPage() {
               <div className="flex items-center justify-center min-w-[280px] h-32 bg-white rounded-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md">
                 <Image
                   src="/partners/ca-logo.png"
-                  alt="C&A"
                   width={240}
                   height={120}
                   className="object-contain max-h-28"
