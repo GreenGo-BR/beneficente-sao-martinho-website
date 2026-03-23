@@ -28,17 +28,17 @@ export default function AbordagemPage() {
     {
       title: "Teatro",
       description: "Busca desenvolver expressão, ganhar confiança e descobrir novas possibilidades.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o%20Ambiental-dPVjVhmrhaXApnLIWydkq2fHPjXWSD.jpeg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/art-cultura-wEXbJeu9JvmPgz2zoWKRuormAPtacS.jpg",
     },
     {
       title: "Informática",
       description: "Busca desenvolver conhecimento tecnológico e capacitação profissional.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/inform%C3%A1tica-06.JPG-iWKv33f4KpeNBKYMo8Fl2WcSNxC6QO.jpeg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/inform%C3%A1tica-01-v7bBoyBBtzZ30uQ5xIN4PIM9ngNSQo.webp",
     },
     {
       title: "Contação de História",
       description: "Busca desenvolver a criatividade e o entendimento lúdico com foco em leitura em grupo.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Centro.de.M%C3%BAsica.JPG-I4FMI7Kmnh7VMO1yLUEQDaQD6UyyA2.jpeg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o-xxD1AW7BMzItK9LP3vFbwbOgzuwdoM.jpg",
     },
   ]
 
@@ -70,35 +70,35 @@ export default function AbordagemPage() {
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Atividades Oferecidas</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {activities.map((activity, index) => (
               <div
                 key={index}
-                className="group rounded-xl lg:rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 flex flex-col h-full bg-background"
+                className="group rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 flex flex-col h-full bg-background border border-border/50"
               >
                 {/* Imagem com overlay */}
-                <div className="relative h-56 lg:h-64 overflow-hidden">
+                <div className="relative h-64 lg:h-72 overflow-hidden bg-muted">
                   <Image
                     src={activity.image || "/placeholder.svg"}
                     alt={activity.title}
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  {/* Overlay gradiente */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                  {/* Overlay gradiente especificado */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/12 to-transparent" />
                   {/* Título sobre a imagem */}
-                  <h3 className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 text-2xl lg:text-3xl font-bold text-white">
+                  <h3 className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 text-xl lg:text-2xl font-bold text-white drop-shadow-lg">
                     {activity.title}
                   </h3>
                 </div>
 
                 {/* Conteúdo do card */}
-                <div className="flex-1 p-6 lg:p-8 flex flex-col">
-                  <p className="text-muted-foreground mb-6 flex-1 leading-relaxed">
+                <div className="flex-1 p-6 lg:p-7 flex flex-col bg-background/95">
+                  <p className="text-sm lg:text-base text-muted-foreground mb-6 flex-1 leading-relaxed">
                     {activity.description}
                   </p>
-                  <Button asChild variant="outline" className="w-full">
-                    <Link href="/doacoes" className="group/btn">
+                  <Button asChild variant="outline" size="sm" className="w-full">
+                    <Link href="/doacoes">
                       Doar para este projeto
                     </Link>
                   </Button>
