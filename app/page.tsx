@@ -131,13 +131,11 @@ export default function Home() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url('/hero-children-community.png')`,
+            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U7uZh4DZN4bUogmBi6qLClgwyuLvUB.png')`,
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "center top",
           }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-background/60" />
-        </div>
+        />
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-3xl">
