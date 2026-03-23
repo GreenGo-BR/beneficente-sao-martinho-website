@@ -133,7 +133,7 @@ export default function Home() {
           style={{
             backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.45)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U7uZh4DZN4bUogmBi6qLClgwyuLvUB.png')`,
             backgroundSize: "cover",
-            backgroundPosition: "center top",
+            backgroundPosition: "center 35%",
           }}
         />
 
