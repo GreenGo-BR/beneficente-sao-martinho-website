@@ -131,7 +131,7 @@ export default function Home() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U7uZh4DZN4bUogmBi6qLClgwyuLvUB.png')`,
+            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.45)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U7uZh4DZN4bUogmBi6qLClgwyuLvUB.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center top",
           }}
@@ -142,8 +142,8 @@ export default function Home() {
             <Badge className="mb-6 animate-fade-in-up bg-accent text-accent-foreground hover:bg-accent/90 text-sm px-4 py-2">
               ✨ {locale === "pt" ? "Há mais de 39 anos transformando vidas!" : "Transforming lives for over 39 years!"}
             </Badge>
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-in-up text-balance leading-tight">
-              <span className="text-gradient-primary">{t.hero.title}</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 animate-fade-in-up text-balance leading-tight" style={{ textShadow: "0 2px 10px rgba(0,0,0,0.4)" }}>
+              {t.hero.title}
             </h1>
             <p
               className="text-lg lg:text-2xl text-muted-foreground mb-8 leading-relaxed text-pretty animate-fade-in-up"
@@ -160,9 +160,8 @@ export default function Home() {
               </Button>
               <Button
                 asChild
-                variant="outline"
                 size="lg"
-                className="text-base bg-background/80 backdrop-blur-sm hover:bg-background border-2 group"
+                className="text-base border border-white text-white bg-transparent hover:bg-white/10"
               >
                 <Link href="/projetos" className="gap-2">
                   {t.hero.ctaSecondary}
