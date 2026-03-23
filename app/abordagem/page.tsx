@@ -17,28 +17,28 @@ export default function AbordagemPage() {
       title: "Capoeira",
       description:
         "A Capoeira como prática esportiva e, também, como instrumento de socialização, de autoestima e de manifestação cultural.",
-      image: "/capoeira-practice-lapa.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-04-jXB0yyG2ufbHDAmNF6n26OgshjHCKA.webp",
     },
     {
       title: "Esportes Coletivos",
       description:
         "Busca desenvolver conhecimento acerca das modalidades esportivas coletivas, favorecendo o desenvolvimento físico-motor e o trabalho em equipe.",
-      image: "/team-sports-basketball-community-lapa.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/esporte.coletivo-9XiissdcA6ViwPqp5IokpqJaCuSYXo.webp",
     },
     {
       title: "Teatro",
       description: "Busca desenvolver expressão, ganhar confiança e descobrir novas possibilidades.",
-      image: "/theater-class-children-performance.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/teatro%20-%20Copia-4GcEd93YY1p4Ul6d9IaioyRsu8RDyH.webp",
     },
     {
       title: "Informática",
       description: "Busca desenvolver conhecimento tecnológico e capacitação profissional.",
-      image: "/computer-class-instructor-helping-students.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/informatica-UpFiLuBw78VBW8ygKf7zsMrrete8HV.webp",
     },
     {
       title: "Contação de História",
       description: "Busca desenvolver a criatividade e o entendimento lúdico com foco em leitura em grupo.",
-      image: "/storytelling-children-listening-engaged.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Contacao.de.historia-LSoGCPvaA9BQUhdJw1HKB8XKRVCNci.webp",
     },
   ]
 
@@ -68,32 +68,45 @@ export default function AbordagemPage() {
       </section>
 
       <section className="py-16 lg:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Atividades Oferecidas</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {activities.map((activity, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden group hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <Image
-                    src={activity.image || "/placeholder.svg"}
-                    alt={activity.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <h3 className="absolute bottom-4 left-4 text-2xl font-bold text-white">{activity.title}</h3>
+        <div className="container mx-auto px-4 lg:px-6">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 lg:mb-16">Atividades Oferecidas</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 auto-rows-max justify-items-center lg:justify-items-stretch">
+              {activities.map((activity, index) => (
+                <div
+                  key={index}
+                  className="w-full max-w-sm lg:max-w-none group rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-2 flex flex-col h-full bg-background border border-border/50"
+                >
+                  {/* Imagem com overlay */}
+                  <div className="relative h-64 lg:h-72 overflow-hidden bg-muted flex-shrink-0">
+                    <Image
+                      src={activity.image || "/placeholder.svg"}
+                      alt={activity.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    {/* Overlay gradiente especificado */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/12 to-transparent" />
+                    {/* Título sobre a imagem */}
+                    <h3 className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 text-xl lg:text-2xl font-bold text-white drop-shadow-lg">
+                      {activity.title}
+                    </h3>
+                  </div>
+
+                  {/* Conteúdo do card */}
+                  <div className="flex-1 p-6 lg:p-7 flex flex-col bg-background/95">
+                    <p className="text-sm lg:text-base text-muted-foreground mb-6 flex-1 leading-relaxed">
+                      {activity.description}
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full">
+                      <Link href="/doacoes">
+                        Doar para este projeto
+                      </Link>
+                    </Button>
+                  </div>
                 </div>
-                <div className="p-6">
-                  <p className="text-muted-foreground mb-4">{activity.description}</p>
-                  <Button asChild variant="outline" className="w-full bg-transparent">
-                    <Link href="/doacoes">Doar para este projeto</Link>
-                  </Button>
-                </div>
-              </Card>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
