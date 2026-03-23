@@ -17,28 +17,28 @@ export default function AbordagemPage() {
       title: "Capoeira",
       description:
         "A Capoeira como prática esportiva e, também, como instrumento de socialização, de autoestima e de manifestação cultural.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-01-fYoYGpa0YcPKjmOf1VCN5jxlmBrkGw.webp",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-04-jXB0yyG2ufbHDAmNF6n26OgshjHCKA.webp",
     },
     {
       title: "Esportes Coletivos",
       description:
         "Busca desenvolver conhecimento acerca das modalidades esportivas coletivas, favorecendo o desenvolvimento físico-motor e o trabalho em equipe.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Esportes.Coletivos-AzMMk6LdnlXVRBm12CZ8wWLKOTErDw.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/esporte.coletivo-9XiissdcA6ViwPqp5IokpqJaCuSYXo.webp",
     },
     {
       title: "Teatro",
       description: "Busca desenvolver expressão, ganhar confiança e descobrir novas possibilidades.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/art-cultura-wEXbJeu9JvmPgz2zoWKRuormAPtacS.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/teatro%20-%20Copia-4GcEd93YY1p4Ul6d9IaioyRsu8RDyH.webp",
     },
     {
       title: "Informática",
       description: "Busca desenvolver conhecimento tecnológico e capacitação profissional.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/inform%C3%A1tica-01-v7bBoyBBtzZ30uQ5xIN4PIM9ngNSQo.webp",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/informatica-UpFiLuBw78VBW8ygKf7zsMrrete8HV.webp",
     },
     {
       title: "Contação de História",
       description: "Busca desenvolver a criatividade e o entendimento lúdico com foco em leitura em grupo.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o-xxD1AW7BMzItK9LP3vFbwbOgzuwdoM.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Contacao.de.historia-LSoGCPvaA9BQUhdJw1HKB8XKRVCNci.webp",
     },
   ]
 
