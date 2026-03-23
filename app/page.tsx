@@ -401,9 +401,12 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-1 animate-slide-in-right">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-square hover-lift">
-                <img src="/sao-martinho-boys-lapa.jpg" alt="São Martinho" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-square hover-lift" style={{
+                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ZgAB9P8LHPXGPzKBKmhLSOnT76w0Dq.png')`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}>
+                <div className="absolute inset-0" />
                 <div className="absolute bottom-6 left-6 right-6 text-white">
                   <p className="text-sm font-semibold mb-1">
                     {locale === "pt" ? "Faça parte desta" : "Be part of this"}
