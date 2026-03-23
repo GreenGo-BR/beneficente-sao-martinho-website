@@ -55,7 +55,7 @@ export function Header() {
               alt="São Martinho"
               width={180}
               height={60}
-              className="h-24 w-auto group-hover:scale-105 transition-transform"
+              className="h-32 w-auto group-hover:scale-105 transition-transform"
             />
           </Link>
 
