@@ -41,7 +41,7 @@ export default function EducagentePage() {
       title: "Capoeira",
       description:
         "A Capoeira como prática esportiva e instrumento de socialização, autoestima e manifestação cultural.",
-      image: "/educagente-capoeira-children-practice-rio.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-01-fYoYGpa0YcPKjmOf1VCN5jxlmBrkGw.webp",
     },
     {
       title: "Esportes Coletivos",

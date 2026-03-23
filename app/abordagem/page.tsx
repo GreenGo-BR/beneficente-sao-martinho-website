@@ -17,28 +17,28 @@ export default function AbordagemPage() {
       title: "Capoeira",
       description:
         "A Capoeira como prática esportiva e, também, como instrumento de socialização, de autoestima e de manifestação cultural.",
-      image: "/capoeira-practice-lapa.jpg",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/capoeira-01-fYoYGpa0YcPKjmOf1VCN5jxlmBrkGw.webp",
     },
     {
       title: "Esportes Coletivos",
       description:
         "Busca desenvolver conhecimento acerca das modalidades esportivas coletivas, favorecendo o desenvolvimento físico-motor e o trabalho em equipe.",
-      image: "/team-sports-basketball-community-lapa.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Esportes.Coletivos-AzMMk6LdnlXVRBm12CZ8wWLKOTErDw.jpg",
     },
     {
       title: "Teatro",
       description: "Busca desenvolver expressão, ganhar confiança e descobrir novas possibilidades.",
-      image: "/theater-class-children-performance.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Educa%C3%A7%C3%A3o%20Ambiental-dPVjVhmrhaXApnLIWydkq2fHPjXWSD.jpeg",
     },
     {
       title: "Informática",
       description: "Busca desenvolver conhecimento tecnológico e capacitação profissional.",
-      image: "/computer-class-instructor-helping-students.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/inform%C3%A1tica-06.JPG-iWKv33f4KpeNBKYMo8Fl2WcSNxC6QO.jpeg",
     },
     {
       title: "Contação de História",
       description: "Busca desenvolver a criatividade e o entendimento lúdico com foco em leitura em grupo.",
-      image: "/storytelling-children-listening-engaged.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Centro.de.M%C3%BAsica.JPG-I4FMI7Kmnh7VMO1yLUEQDaQD6UyyA2.jpeg",
     },
   ]
 
