@@ -72,27 +72,38 @@ export default function AbordagemPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Atividades Oferecidas</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {activities.map((activity, index) => (
-              <Card
+              <div
                 key={index}
-                className="overflow-hidden group hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                className="group rounded-xl lg:rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 flex flex-col h-full bg-background"
               >
-                <div className="relative h-48 overflow-hidden">
+                {/* Imagem com overlay */}
+                <div className="relative h-56 lg:h-64 overflow-hidden">
                   <Image
                     src={activity.image || "/placeholder.svg"}
                     alt={activity.title}
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <h3 className="absolute bottom-4 left-4 text-2xl font-bold text-white">{activity.title}</h3>
+                  {/* Overlay gradiente */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                  {/* Título sobre a imagem */}
+                  <h3 className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 text-2xl lg:text-3xl font-bold text-white">
+                    {activity.title}
+                  </h3>
                 </div>
-                <div className="p-6">
-                  <p className="text-muted-foreground mb-4">{activity.description}</p>
-                  <Button asChild variant="outline" className="w-full bg-transparent">
-                    <Link href="/doacoes">Doar para este projeto</Link>
+
+                {/* Conteúdo do card */}
+                <div className="flex-1 p-6 lg:p-8 flex flex-col">
+                  <p className="text-muted-foreground mb-6 flex-1 leading-relaxed">
+                    {activity.description}
+                  </p>
+                  <Button asChild variant="outline" className="w-full">
+                    <Link href="/doacoes" className="group/btn">
+                      Doar para este projeto
+                    </Link>
                   </Button>
                 </div>
-              </Card>
+              </div>
             ))}
           </div>
         </div>
